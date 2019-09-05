@@ -10,14 +10,12 @@ h1 {
     font-size: 2em;
     margin-top: 0;
     font-weight: bold;
-    text-shadow: 5px 1px 7px black;
 }
 
 p
 {
     font-size: 150%;
     font-family: 'Oleo Script', cursive;
-    text-shadow: 5px 1px 7px black;
 }
 
 .topContainer {
