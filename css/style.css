@@ -7,29 +7,57 @@ body {
 
 h1 {
     display: block;
-    font-size: 2em;
+    font-size: 4rem;
     margin-top: 0;
     font-weight: bold;
+    font-family: 'Russo One', sans-serif;
 }
 
-p
-{
-    font-size: 150%;
+a {
+    font-size: 1.2rem;
+    text-decoration-line: none;
+    border-bottom: 5px solid rgb(255, 216, 104);
+    color: #46ffee;
+}
+
+a:hover, a:active {
+    color: rgb(255, 216, 104);
+}
+
+a:visited {
+    color: lime;
+}
+
+p {
+    font-size: 2.5rem;
     font-family: 'Oleo Script', cursive;
 }
 
 .topContainer {
-    background-color: #3099f3;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    border-bottom-width: 0;
+    border-left-width: 0.7rem;
+    border-top-width: 0.7rem;
+    border-right-width: 0.7rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    border-style: solid;
+    border-color: #7aaad4;
+    background-color: #0873D5;
+    position: relative;
+    top: 15rem;
+}
+
+.startingScreenName {
+    position: relative;
+    top: 2rem;
 }
 
 .white {
-    color: #f2f3f3;
+    color: #46ffee;
 }
 
 .cloudImages {
-    width: 90px;
-    height: 50px;
+    width: 5rem;
+    height: 3rem;
     position: relative;
 }
