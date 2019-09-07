@@ -15,17 +15,12 @@ h1 {
 
 a {
     font-size: 1.2rem;
-    text-decoration-line: none;
     border-bottom: 5px solid rgb(255, 216, 104);
     color: #46ffee;
-}
+} 
 
 a:hover, a:active {
     color: rgb(255, 216, 104);
-}
-
-a:visited {
-    color: lime;
 }
 
 p {
@@ -41,7 +36,7 @@ p {
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     border-style: solid;
-    border-color: #7aaad4;
+    border-color: #374f63;
     background-color: #0873D5;
     position: relative;
     top: 15rem;
